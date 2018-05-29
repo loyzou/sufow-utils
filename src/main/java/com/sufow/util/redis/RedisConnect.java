@@ -10,5 +10,7 @@ public class RedisConnect {
 		System.out.println(jedis.getClient().getPort());
 		//查看服务是否运行
 		System.out.println("服务正在运行: "+jedis.ping());
+		// redis-server
+		// redis-cli
 	}
 }
